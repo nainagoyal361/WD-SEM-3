@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+    <h1 ><b>Student Registration Form</b></h1>
+    <div class="container">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="fullname" placeholder="Enter your Full Name" required>
+
+        <br><br>
+
+        <label for="email">Email ID: </label>
+        <input type="text" id="email" name="Emal ID" placeholder="Enter your Email id" required>
+
+        <br><br>
+
+        <label for="name">Father's Name: </label>
+        <input type="text" id="name" name="fathername" placeholder="Enter your Father Name" required>
+
+        <br><br>
+
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact no" placeholder="Enter your phone no" required>
+        
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="branch">Branch: </label>
+        <select name="branch" id="branch">
+            <option>CSE</option>
+            <option>CSE-DS</option>
+            <option>CSE-AIML</option>
+            <option>ECE</option>
+            <option>ELCE</option>
+        </select>
+
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your adress"></textarea>
+        
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+    </div>
+    </form>
+</body>
+</html>
